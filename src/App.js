@@ -2,7 +2,14 @@ import React from "react";
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    // BEM naming convention
+    <div className="App">
+      {/* Header */}
+      {/* Sidebar */}
+      {/* react touter -> chat screen */}
+    </div>
+  );
 }
 
 export default App;
