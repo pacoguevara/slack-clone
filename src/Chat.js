@@ -48,7 +48,6 @@ function Chat() {
       <div className="chat__messages">
         {roomMessages.map((message) => (
           <Message
-            key={message.timestamp.seconds}
             message={message.message}
             timestamp={message.timestamp}
             user={message.user}
